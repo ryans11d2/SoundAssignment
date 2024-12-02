@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f5aeca3b-9cad-49ce-b1fd-1de69a366ee9}">
+		<property name="assetPath">
+			<value>metal hit Impact metal hit sound effect HQStudio FX.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.1869387755102041</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d1d42595-dae6-42c4-a183-e9c7ac19bee0}</destination>
+		</relationship>
+	</object>
+</objects>

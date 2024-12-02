@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c299e9c8-04ed-4d8c-8c42-c9701b8165a6}">
+		<property name="assetPath">
+			<value>Target Hit.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3279999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d1d42595-dae6-42c4-a183-e9c7ac19bee0}</destination>
+		</relationship>
+	</object>
+</objects>

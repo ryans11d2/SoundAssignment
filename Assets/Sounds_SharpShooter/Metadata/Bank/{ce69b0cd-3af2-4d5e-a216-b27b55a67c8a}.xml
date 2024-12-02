@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{ce69b0cd-3af2-4d5e-a216-b27b55a67c8a}">
+		<property name="note">
+			<value>For sound effects like objects hitting things
+-Spatial
+</value>
+		</property>
+		<property name="name">
+			<value>SFX</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1161ebc7-cddb-4731-9b26-0fbc4da4ca95}</destination>
+		</relationship>
+	</object>
+</objects>
