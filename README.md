@@ -15,3 +15,8 @@ SPACE - Open Pause Menu
 
 itch.io: https://deansatine.itch.io/sharpshooter
 
+External Sound Assets Used:
+https://www.youtube.com/watch?v=2p2_JvtBtd8 
+https://www.youtube.com/watch?v=F5x_IsqT3qQ 
+https://www.youtube.com/watch?v=i0DON3AjhW4
+https://www.youtube.com/watch?v=EFY9TX2Fghg
