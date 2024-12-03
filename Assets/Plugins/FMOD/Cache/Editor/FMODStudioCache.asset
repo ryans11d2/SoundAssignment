@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Sounds_SharpShooter/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638687300097998998
+  lastModified: 638688226252719366
   FileSizes:
   - Name: Desktop
-    Value: 2192
+    Value: 2288
   Exists: 1
 --- !u!114 &-7298793651598356735
 MonoBehaviour:
@@ -155,6 +155,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 35
   Length: 2000
+--- !u!114 &-5158280484230744416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Streak
+  m_EditorClassIdentifier: 
+  Name: Streak
+  StudioPath: parameter:/Streak
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4235279339
+    data2: 3993452550
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-4922319046725355842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -205,7 +229,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 2084726701497529651}
   MinDistance: 1
   MaxDistance: 95
   Length: 112770
@@ -224,10 +249,10 @@ MonoBehaviour:
   Path: Assets/Sounds_SharpShooter/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638687300097989000
+  lastModified: 638688226252709372
   FileSizes:
   - Name: Desktop
-    Value: 1340
+    Value: 1522
   Exists: 1
 --- !u!114 &-3775025382261581449
 MonoBehaviour:
@@ -271,10 +296,34 @@ MonoBehaviour:
   Path: Assets/Sounds_SharpShooter/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638687300098199391
+  lastModified: 638688176385811158
   FileSizes:
   - Name: Desktop
-    Value: 2901056
+    Value: 2901248
+  Exists: 1
+--- !u!114 &-2508426418376564262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Target Hit/Streak
+  m_EditorClassIdentifier: 
+  Name: Streak
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4235279339
+    data2: 3993452550
+  Type: 0
+  IsGlobal: 1
+  Labels: []
   Exists: 1
 --- !u!114 &-2247853826203176807
 MonoBehaviour:
@@ -345,10 +394,10 @@ MonoBehaviour:
   Path: Assets/Sounds_SharpShooter/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638687300098279162
+  lastModified: 638688226253124143
   FileSizes:
   - Name: Desktop
-    Value: 2458368
+    Value: 2459584
   Exists: 1
 --- !u!114 &-438465371319255445
 MonoBehaviour:
@@ -376,7 +425,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1253
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,12 +472,13 @@ MonoBehaviour:
   - {fileID: -4922319046725355842}
   - {fileID: 2995613891568116471}
   - {fileID: -5441207448147387402}
-  EditorParameters: []
+  EditorParameters:
+  - {fileID: -5158280484230744416}
   MasterBanks:
   - {fileID: -4208430720615543207}
   StringsBanks:
   - {fileID: -7567856937697200929}
-  cacheTime: 638687300098279162
+  cacheTime: 638688226253124143
   cacheVersion: 131621
 --- !u!114 &98329847023298105
 MonoBehaviour:
@@ -512,6 +562,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1500
+--- !u!114 &2084726701497529651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Targets/Speed
+  m_EditorClassIdentifier: 
+  Name: Speed
+  StudioPath: 
+  Min: 1
+  Max: 2
+  Default: 1
+  ID:
+    data1: 3097572789
+    data2: 1473938096
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2208997130256285535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -721,7 +795,8 @@ MonoBehaviour:
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: -2508426418376564262}
   MinDistance: 1
   MaxDistance: 45
   Length: 3011

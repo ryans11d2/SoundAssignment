@@ -92,6 +92,11 @@ public class GameManager : MonoBehaviour
             string niceTime = string.Format("{0:00}:{1:00}", minutes, seconds);
 
             timer.text = niceTime;
+
+            float OldValue;
+            FMODUnity.RuntimeManager.StudioSystem.getParameterByName("Streak", out OldValue);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Streak", OldValue - Time.deltaTime * 0.2f);
+
         }
         if(currentTimeLeft <= 0 && gameIsRunning)
         {

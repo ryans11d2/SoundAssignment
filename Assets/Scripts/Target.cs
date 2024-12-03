@@ -83,10 +83,14 @@ public class Target : MonoBehaviour
 
             GameObject Sound = Instantiate(new GameObject());
             Sound.transform.position = transform.position;
-            //Sound.transform.parent = transform;
             Sound.AddComponent<StudioEventEmitter>();
             Sound.GetComponent<StudioEventEmitter>().EventReference = Hit;
             Sound.GetComponent<StudioEventEmitter>().Play();
+
+            float OldValue;
+            FMODUnity.RuntimeManager.StudioSystem.getParameterByName("Streak", out OldValue);
+            FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Streak", OldValue + 0.2f);
+
             Destroy(Sound, 5);
 
         }
