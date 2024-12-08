@@ -112,6 +112,9 @@
 		</property>
 	</object>
 	<object class="LowpassSimpleEffect" id="{b052dc80-80c1-4ef4-b10e-79b40eddfaf8}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="cutoff">
 			<value>2300</value>
 		</property>

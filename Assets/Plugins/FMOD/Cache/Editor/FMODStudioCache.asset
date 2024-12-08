@@ -394,7 +394,7 @@ MonoBehaviour:
   Path: Assets/Sounds_SharpShooter/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638688226253124143
+  lastModified: 638692583402061822
   FileSizes:
   - Name: Desktop
     Value: 2459584
@@ -478,7 +478,7 @@ MonoBehaviour:
   - {fileID: -4208430720615543207}
   StringsBanks:
   - {fileID: -7567856937697200929}
-  cacheTime: 638688226253124143
+  cacheTime: 638692583402061822
   cacheVersion: 131621
 --- !u!114 &98329847023298105
 MonoBehaviour:
